@@ -1,0 +1,5 @@
+/* Header */
+
+	#nav > ul > li.current:before {
+		display: none;
+	}

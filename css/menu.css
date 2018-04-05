@@ -1,0 +1,47 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+
+.navigation {
+  width: 300px;
+}
+
+.mainmenu, .submenu {
+  padding: 0;
+  margin: 0;
+}
+
+.mainmenu a {
+	padding:10px 15px; 
+	display:block; color:#fff; 
+	background-color: #37c0fb;
+	border-radius: 3px;
+  	color: #FFF;
+}
+
+.mainmenu a:hover {
+    background-color:#007ee9;
+}
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 250px;
+}
+
+.submenu a {
+  list-style-type:none; 		
+  background-color: #0E9EEf;
+}
+
+
+.submenu a:hover {
+  background-color: #0665C1;
+}
+
+
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+
+
